@@ -1,5 +1,5 @@
 import React from "react";
-import "../LoginPage/Login.css";
+import "./Login.css";
 import Footer from "./Footer";
 import google from "../../assets/google.svg";
 import apple from "../../assets/apple.svg";
