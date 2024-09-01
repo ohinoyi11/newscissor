@@ -1,0 +1,95 @@
+.footer {
+  background-color: white;
+  z-index: 1;
+  height: 300px;
+}
+
+.unity {
+  display: flex;
+  padding: 50px;
+  gap: 100px;
+  justify-content: center;
+  margin-top: -180px;
+}
+
+.title {
+  width: 184px;
+  height: 96px;
+
+  opacity: 0px;
+  text-align: left;
+}
+
+.footlogo {
+  margin-bottom: -40px;
+}
+@font-face {
+  font-family: Gilroy-Bold;
+  src: url(../../assets/gilroy/Gilroy-Bold.ttf);
+}
+
+.footimg {
+  display: flex;
+  position: absolute;
+  gap: 400px;
+}
+.spanup h4 {
+  font-family: Gilroy-Bold;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: left;
+}
+.moreinfo {
+  width: 812px;
+  height: 384px;
+  top: 95px;
+  left: 426px;
+  gap: 24px;
+  opacity: 0px;
+  display: flex;
+  text-align: left;
+  color: black;
+}
+
+.logo {
+  display: flex;
+  list-style: none;
+  gap: 24px;
+}
+
+@font-face {
+  font-family: Gilroy-Medium;
+  src: url(../../assets/gilroy/Gilroy-Medium.ttf);
+}
+.firstquarter {
+  width: 180px;
+  height: 384px;
+  gap: 56px;
+  opacity: 0px;
+  font-family: Gilroy-Medium sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: left;
+}
+
+.lists {
+  list-style: none;
+}
+
+.lists li a {
+  text-decoration: none;
+  font-family: Gilroy-Medium, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: left;
+  color: black;
+}
+
+.spanup h4 {
+  margin-left: 40px;
+}
+
+.tagline {
+  font-family: Gilroy-Medium, sans-serif;
+  padding: 15px;
+}

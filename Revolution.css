@@ -1,0 +1,44 @@
+.revolution {
+  width: 1440px;
+  height: 300px;
+  margin-top: 350px;
+  position: relative;
+  opacity: 0px;
+  background: linear-gradient(180deg, #1e3448 99.99%, rgba(30, 52, 72, 0) 100%);
+  align-items: center;
+  display: inline-block;
+}
+.revolutiontext {
+  top: -250px;
+
+  gap: 32px;
+  opacity: 0px;
+  position: relative;
+  z-index: 1;
+}
+
+.revolutiontext h3 {
+  font-family: Gilroy-Bold;
+  font-size: 40px;
+  line-height: 48px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.blue1 {
+  margin-left: -30px;
+  position: relative;
+}
+
+.blue2 {
+  position: relative;
+  left: 100px;
+}
+
+.revimg {
+  display: flex;
+  position: relative;
+  gap: 90px;
+  margin-left: 10px;
+  left: 20px;
+}
