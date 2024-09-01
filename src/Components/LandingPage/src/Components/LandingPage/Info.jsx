@@ -1,5 +1,5 @@
 import React from "react";
-import "./Info.css";
+import "./info.css";
 import link from "../../assets/link.svg";
 import qrcode from "../../assets/qrcode.svg";
 import analysis from "../../assets/analysis.svg";
