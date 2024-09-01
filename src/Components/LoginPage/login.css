@@ -1,0 +1,130 @@
+.loginpage {
+  height: 700px;
+  padding: 132px 489px 500px 489px;
+  margin-bottom: 100px;
+  margin-top: -250px;
+  position: relative;
+  z-index: 1;
+}
+
+.upperdetails {
+  background-color: white;
+  display: flex;
+  gap: 24px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 50px;
+  color: black;
+}
+
+.upperdetails p {
+  padding-bottom: -10px;
+  margin-bottom: -10px;
+  color: #5c6f7f;
+
+  font-family: Gilroy-Medium;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+}
+
+.logos {
+  width: 109px;
+  height: 40px;
+  padding: 11px 11.92px 10px 16px;
+  gap: 0px;
+  border-radius: 3px;
+  background: #005ae2;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  font-family: Gilroy-Medium, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: white;
+  cursor: pointer;
+}
+
+.alterlog {
+  display: flex;
+  gap: 24px;
+  border-bottom: 1px solid #a0b1c0;
+
+  padding-top: 20px;
+  padding-bottom: 30px;
+  width: 400px;
+  align-items: center;
+  justify-content: center;
+}
+
+.input {
+  position: relative;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input {
+  width: 462px;
+  height: 20px;
+  margin: 15px;
+  padding: 15px;
+  border-radius: 10px;
+  border: 2px solid #005ae2;
+}
+
+input::placeholder {
+  font-family: Gilroy-Medium;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: left;
+}
+
+.upper {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  margin-top: 100px;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.fp {
+  font-family: Gilroy-Medium;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: right;
+  color: #4991ff;
+  padding-right: 15px;
+  cursor: pointer;
+}
+
+.lower p {
+  color: black;
+
+  font-family: Gilroy-Medium, sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+}
+
+.lower .other {
+  font-family: Gilroy-Medium;
+  font-size: 12px;
+  line-height: 18px;
+  text-align: center;
+  color: #a0b1c0;
+}
+.logincard {
+  margin-bottom: 100px;
+}

@@ -1,0 +1,129 @@
+.password-input-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.password-input-container input {
+  width: 462px;
+  height: 20px;
+  margin: 15px;
+  padding: 15px;
+  border-radius: 10px;
+  border: 2px solid #005ae2;
+}
+
+.password-toggle-button {
+  position: absolute;
+  right: 30px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #005ae2;
+
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+.password-toggle-button:focus {
+  outline: none;
+}
+.loginpage {
+  height: 700px;
+  padding: 132px 489px 131.81px 489px;
+  width: 1440px;
+  color: white;
+  margin-top: -250px;
+  position: relative;
+}
+
+.upperdetails {
+  background-color: white;
+  display: flex;
+  gap: 24px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.logos {
+  width: 109px;
+  height: 40px;
+  padding: 11px 11.92px 10px 16px;
+  gap: 0px;
+  border-radius: 3px;
+  background: #005ae2;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  font-family: Gilroy-Medium;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: white;
+  cursor: pointer;
+}
+
+.alterlog {
+  display: flex;
+  gap: 24px;
+}
+
+.input {
+  position: relative;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+input {
+  width: 462px;
+  height: 20px;
+  margin: 15px;
+  padding: 15px;
+  border-radius: 10px;
+  border: 2px solid #005ae2;
+}
+
+input::placeholder {
+  font-family: Gilroy-Medium;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: left;
+}
+
+.upper {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.fp {
+  font-family: Gilroy-Medium;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: right;
+  color: #4991ff;
+  padding-right: 15px;
+  cursor: pointer;
+}
+
+.lower .other {
+  font-family: Gilroy-Medium;
+  font-size: 12px;
+  line-height: 18px;
+  text-align: center;
+  color: #a0b1c0;
+  margin-bottom: 50px;
+}

@@ -1,0 +1,105 @@
+.urlconv {
+  height: 523px;
+  width: 1440px;
+  gap: 0px;
+  background: linear-gradient(180deg, #1e3448 99.99%, rgba(30, 52, 72, 0) 100%);
+  top: 250px;
+  position: relative;
+}
+
+.lurl {
+  left: 10px;
+  gap: 0px;
+  opacity: 0.5px;
+  position: absolute;
+}
+
+.rurl {
+  left: 260px;
+  gap: 0px;
+  opacity: 0.7px;
+  position: relative;
+}
+
+.shortcard {
+  width: 476px;
+  height: 300px;
+  margin-top: -450px;
+  left: 482px;
+  padding: 42px;
+  z-index: 1;
+  border-radius: 12px;
+  opacity: 0px;
+  background-color: white;
+  position: absolute;
+}
+
+.uppertext {
+  width: 392px;
+  height: 100px;
+  padding: 8px 12px 8px 12px;
+  gap: 10px;
+  border-radius: 12px;
+  border: 1px;
+  opacity: 0px;
+  border: 1px solid #3284ff;
+}
+
+.suppertext {
+  width: 200px;
+  height: 55px;
+  padding: 8px 12px 8px 12px;
+  gap: 10px;
+  border-radius: 12px;
+  border: 1px;
+  opacity: 0px;
+  border: 1px solid #3284ff;
+}
+
+.tuppertext {
+  width: 200px;
+  height: 55px;
+  padding: 8px 12px 8px 12px;
+  gap: 10px;
+  border-radius: 12px;
+  border: 1px;
+  opacity: 0px;
+  border: 1px solid #3284ff;
+}
+
+.input {
+  width: 420px;
+  height: 100px;
+
+  gap: 15px;
+  opacity: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.lowerinput {
+  width: 418px;
+  padding: 8px 12px 8px 12px;
+  height: 73px;
+  gap: 12px;
+  opacity: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.submit {
+  width: 418px;
+  height: 73px;
+  gap: 12px;
+  margin-top: 50px;
+}
+
+.submit p {
+  font-family: Gilroy-Medium;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: left;
+  color: #3284ff;
+}

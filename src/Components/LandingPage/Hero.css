@@ -1,0 +1,49 @@
+@font-face {
+  font-family: Gilroy-Bold;
+  src: url(../assets/gilroy/Gilroy-Bold.ttf);
+}
+
+.hero {
+  position: relative;
+}
+
+.flatcone {
+  margin-top: 250px;
+}
+.centertext {
+  width: 1000px;
+  height: 200px;
+  top: 162px;
+  left: 246px;
+  gap: 32px;
+}
+
+.centertext h2 {
+  font-family: Gilroy-Bold;
+  font-size: 48px;
+  line-height: 96px;
+  text-align: center;
+}
+
+@font-face {
+  font-family: Gilroy-Medium;
+  src: url(../assets/gilroy/Gilroy-Medium.ttf);
+}
+.centertext p {
+  font-family: Gilroy-Medium;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  width: 781px;
+  height: 105px;
+  gap: 0px;
+  opacity: 0px;
+}
+.heroshapes {
+  top: 250px;
+  left: 20px;
+  gap: 0px;
+  border-radius: 24px;
+  opacity: 0px;
+  position: relative;
+}
